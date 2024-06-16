@@ -1,5 +1,12 @@
 {
-	"dependencies": {
-		"json-server": "1.0.0-beta.1"
-	}
+  "name": "member-club",
+  "description": "A simple member club app",
+  "version": "1.0.0",
+  "author": "Giovani Girardi",
+  "scripts": {
+    "server": "json-server --watch server.json --port 3333"
+  },
+  "dependencies": {
+    "json-server": "1.0.0-beta.1"
+  }
 }
