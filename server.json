@@ -3,6 +3,7 @@
     {
       "id": "124-537-835-230",
       "name": "Natália Miranda",
+      "profilePicture": "https://images.unsplash.com/photo-1579610520129-963c74781ffb?q=80&w=2028&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "clientSince": "18/09/2023",
       "appointmentHistory": [
         { "date": "29/04/2024", "time": "18:30" },
@@ -21,6 +22,7 @@
     {
       "id": "207-245-699-104",
       "name": "Capitão Nascimento",
+      "profilePicture": "https://upload.wikimedia.org/wikipedia/pt/6/6a/Cap_nascimento.jpg",
       "clientSince": "12/04/2023",
       "appointmentHistory": [
         { "date": "01/05/2024", "time": "10:00" },
@@ -37,6 +39,7 @@
     {
       "id": "523-114-876-908",
       "name": "Sansão",
+      "profilePicture": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Sans%C3%B3n_matando_al_le%C3%B3n_-_Pedro_Pablo_Rubens.jpg/290px-Sans%C3%B3n_matando_al_le%C3%B3n_-_Pedro_Pablo_Rubens.jpg",
       "clientSince": "15/07/2023",
       "appointmentHistory": [
         { "date": "22/04/2024", "time": "16:00" },

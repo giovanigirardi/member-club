@@ -1,0 +1,30 @@
+.enter-button {
+  padding: 10px;
+  height: 40px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: var(--base-gray-700);
+
+  cursor: pointer;
+  transition: 250ms;
+
+  &:hover:enabled {
+    background-color: var(--base-gray-600);
+  }
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+
+    path {
+      fill: var(--base-white);
+    }
+  }
+}

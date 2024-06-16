@@ -17,7 +17,8 @@
   --base-gray-100: #f4f1f2;
   --base-white: #ffffff;
 
-  --gradient-base: linear-gradient(90deg,  #2DAA6E 0%,  #2DAAAA 33.33%,  #856CCF 66.67%,  #D658B3 100%);
+  --gradient-base: linear-gradient(90deg, #2daa6e 0%, #2daaaa 33.33%, #856ccf 66.67%, #d658b3 100%);
+  --gradient-diagonal: linear-gradient(305deg, #2daa6e 0%, #2daaaa 33.33%, #856ccf 66.67%, #d658b3 100%);
 
   --font-family: "Oxygen", sans-serif;
   --title-md: 700 1.5rem/1.4 var(--font-family);
@@ -32,10 +33,10 @@
 body {
   font: var(--text-md);
   color: var(--base-gray-500);
+  background-color: var(--base-gray-200);
 }
 
-h1,
-h2 {
+h1 {
   color: var(--base-gray-600);
 }
 
@@ -47,12 +48,76 @@ h2 {
   display: flex;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-baseline {
+  align-items: baseline;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
 .flex-1 {
-  flex: 1;
+  flex-grow: 1;
 }
 
 .flex-2 {
-  flex: 2;
+  flex-grow: 2;
+}
+
+.gap-0\.5 {
+  gap: 2px;
+}
+
+.gap-1 {
+  gap: 4px;
+}
+
+.gap-2 {
+  gap: 8px;
+}
+
+.gap-3 {
+  gap: 12px;
+}
+
+.gap-4 {
+  gap: 16px;
+}
+
+.gap-5 {
+  gap: 20px;
+}
+
+.gap-6 {
+  gap: 24px;
+}
+
+.gap-7 {
+  gap: 28px;
+}
+
+.gap-8 {
+  gap: 32px;
 }
 
 .title {
