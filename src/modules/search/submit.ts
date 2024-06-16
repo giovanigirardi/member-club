@@ -1,4 +1,5 @@
 import { searchUserById } from "../../services/search-user-by-id";
+import { pageLoad } from "../render/page-render";
 
 const form = document.querySelector("form");
 
@@ -21,6 +22,10 @@ if (form) {
 
     const userInfo = await searchUserById(value);
 
-    console.log(userInfo);
+    if (!userInfo) {
+      return;
+    }
+
+    pageLoad(userInfo);
   };
 }
